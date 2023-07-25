@@ -36,8 +36,8 @@ SOURCES		:=	source
 DATA		:=	data
 INCLUDES	:=	include
 CONTENT		:=	content
-ICON		:=	icon.jpg
-TV_SPLASH	:=	TV_SPLASH.jpg
+ICON		:=	
+TV_SPLASH	:=	
 DRC_SPLASH	:=	
 
 #-------------------------------------------------------------------------------
