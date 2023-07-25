@@ -13,9 +13,9 @@ TOPDIR ?= $(CURDIR)
 # APP_SHORTNAME sets the short name of the application
 # APP_AUTHOR sets the author of the application
 #-------------------------------------------------------------------------------
-#APP_NAME	:= Application Name
-#APP_SHORTNAME	:= App Name
-#APP_AUTHOR	:= Built with devkitPPC & wut
+APP_NAME	:= Aemm
+APP_SHORTNAME	:= Aemm
+APP_AUTHOR	:= Aem
 
 include $(DEVKITPRO)/wut/share/wut_rules
 
@@ -35,10 +35,10 @@ BUILD		:=	build
 SOURCES		:=	source
 DATA		:=	data
 INCLUDES	:=	include
-CONTENT		:=
-ICON		:=
-TV_SPLASH	:=
-DRC_SPLASH	:=
+CONTENT		:=	content
+ICON		:=	icon.jpg
+TV_SPLASH	:=	TV_SPLASH.jpg
+DRC_SPLASH	:=	
 
 #-------------------------------------------------------------------------------
 # options for code generation
